@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ru.inponomarev</groupId>
-  <artifactId>celesta2023</artifactId>
+  <artifactId>celesta2025</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <packaging>jar</packaging>
@@ -19,14 +19,17 @@
     <assertj.core.version>3.24.2</assertj.core.version>
     <approvaltests.version>18.5.0</approvaltests.version>
     <maven.surefire.plugin.version>3.0.0</maven.surefire.plugin.version>
-    <jacoco.maven.plugin.version>0.8.8</jacoco.maven.plugin.version>
+    <jacoco.maven.plugin.version>0.8.12</jacoco.maven.plugin.version>
     <checkstyle.maven.plugin.version>3.3.0</checkstyle.maven.plugin.version>
     <checkstyle.version>10.9.3</checkstyle.version>
-    <celesta.version>7.4.39</celesta.version>
-    <spring.boot.starter.celesta.version>2.1.68</spring.boot.starter.celesta.version>
+    <celesta.version>8.2.0</celesta.version>
+    <spring.boot.starter.celesta.version>3.0.1</spring.boot.starter.celesta.version>
     <hurdy.gurdy.version>1.29</hurdy.gurdy.version>
     <org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
     <retrofit.version>2.9.0</retrofit.version>
+    <!-- Override Spring Boot 2.7's Lombok 1.18.26, which is not compatible with Java 21
+         (JCTree$JCImport.qualid NoSuchFieldError). 1.18.30+ adds Java 21 support. -->
+    <lombok.version>1.18.34</lombok.version>
   </properties>
 
   <parent>

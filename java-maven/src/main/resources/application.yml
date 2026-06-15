@@ -1,6 +1,6 @@
 celesta:
   #jdbc:
-  #  url: jdbc:postgresql://localhost:5432/celesta2023
+  #  url: jdbc:postgresql://localhost:5432/celesta2025
   #  username: postgres
   #  password: 123
   h2:
