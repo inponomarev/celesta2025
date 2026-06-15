@@ -8,7 +8,7 @@ import ru.inponomarev.backend.dto.ItemDTO;
 import ru.inponomarev.backend.dto.OrderDTO;
 import ru.inponomarev.backend.service.OrderService;
 
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletResponse;
 import java.util.List;
 
 @RestController

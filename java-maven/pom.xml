@@ -23,19 +23,17 @@
     <checkstyle.maven.plugin.version>3.3.0</checkstyle.maven.plugin.version>
     <checkstyle.version>10.9.3</checkstyle.version>
     <celesta.version>8.2.0</celesta.version>
-    <spring.boot.starter.celesta.version>3.0.1</spring.boot.starter.celesta.version>
-    <hurdy.gurdy.version>1.29</hurdy.gurdy.version>
+    <spring.boot.starter.celesta.version>3.1.0</spring.boot.starter.celesta.version>
+    <hurdy.gurdy.version>2.8</hurdy.gurdy.version>
     <org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
     <retrofit.version>2.9.0</retrofit.version>
-    <!-- Override Spring Boot 2.7's Lombok 1.18.26, which is not compatible with Java 21
-         (JCTree$JCImport.qualid NoSuchFieldError). 1.18.30+ adds Java 21 support. -->
-    <lombok.version>1.18.34</lombok.version>
+    <lombok.version>1.18.46</lombok.version>
   </properties>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.7.12</version>
+    <version>3.5.15</version>
   </parent>
 
   <dependencies>
@@ -81,7 +79,6 @@
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.13.0</version>
     </dependency>
     <!-- Test dependencies -->
     <dependency>
