@@ -13,7 +13,7 @@
     <description>Celesta demo slides</description>
 
     <properties>
-        <asciidoctor.maven.plugin.version>3.0.0</asciidoctor.maven.plugin.version>
+        <asciidoctor.maven.plugin.version>3.2.0</asciidoctor.maven.plugin.version>
         <project.slides.directory>${project.build.directory}/generated-slides</project.slides.directory>
         <asciidoctorj.version>3.0.1</asciidoctorj.version>
         <asciidoctorj.diagram.version>2.3.0</asciidoctorj.diagram.version>
