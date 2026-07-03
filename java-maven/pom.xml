@@ -24,7 +24,7 @@
     <checkstyle.version>13.6.0</checkstyle.version>
     <celesta.version>8.2.0</celesta.version>
     <spring.boot.starter.celesta.version>3.1.0</spring.boot.starter.celesta.version>
-    <hurdy.gurdy.version>2.8</hurdy.gurdy.version>
+    <hurdy.gurdy.version>2.10</hurdy.gurdy.version>
     <org.mapstruct.version>1.6.3</org.mapstruct.version>
     <retrofit.version>3.0.0</retrofit.version>
     <lombok.version>1.18.46</lombok.version>
