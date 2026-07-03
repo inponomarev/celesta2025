@@ -15,7 +15,7 @@
     <properties>
         <asciidoctor.maven.plugin.version>3.0.0</asciidoctor.maven.plugin.version>
         <project.slides.directory>${project.build.directory}/generated-slides</project.slides.directory>
-        <asciidoctorj.version>2.5.12</asciidoctorj.version>
+        <asciidoctorj.version>3.0.1</asciidoctorj.version>
         <asciidoctorj.diagram.version>2.3.0</asciidoctorj.diagram.version>
         <jruby.version>9.4.6.0</jruby.version>
         <revealjs.version>3.9.2</revealjs.version>
