@@ -21,7 +21,7 @@
     <maven.surefire.plugin.version>3.5.6</maven.surefire.plugin.version>
     <jacoco.maven.plugin.version>0.8.15</jacoco.maven.plugin.version>
     <checkstyle.maven.plugin.version>3.6.0</checkstyle.maven.plugin.version>
-    <checkstyle.version>13.9.0</checkstyle.version>
+    <checkstyle.version>13.10.0</checkstyle.version>
     <celesta.version>8.2.1</celesta.version>
     <spring.boot.starter.celesta.version>3.1.0</spring.boot.starter.celesta.version>
     <hurdy.gurdy.version>3.3</hurdy.gurdy.version>
