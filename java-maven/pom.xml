@@ -27,7 +27,7 @@
     <hurdy.gurdy.version>3.3</hurdy.gurdy.version>
     <org.mapstruct.version>1.6.3</org.mapstruct.version>
     <retrofit.version>3.0.0</retrofit.version>
-    <lombok.version>1.18.46</lombok.version>
+    <lombok.version>1.18.48</lombok.version>
   </properties>
 
   <parent>
